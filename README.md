@@ -14,31 +14,22 @@
 
 #### RULE-SET:
 
+
 - **直连域名列表 direct.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/direct.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/direct.txt)
+  - [https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/direct.txt](https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/direct.txt)
+  - [https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/direct.txt](https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/direct.txt)
 - **代理域名列表 proxy.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/proxy.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/proxy.txt)
+  - [https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/proxy.txt](https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/proxy.txt)
+  - [https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/proxy.txt](https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/proxy.txt)
 - **广告域名列表 reject.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/reject.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/reject.txt)
+  - [https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/reject.txt](https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/reject.txt)
+  - [https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/reject.txt](https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/reject.txt)
 - **私有网络专用域名列表 private.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/private.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/private.txt)
+  - [https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/private.txt](https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/private.txt)
+  - [https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/private.txt](https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/private.txt)
 - **Apple 在中国大陆可直连的域名列表 apple.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/apple.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/apple.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/apple.txt)
+  - [https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/apple.txt](https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/apple.txt)
+  - [https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/apple.txt](https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/apple.txt)
 - **iCloud 域名列表 icloud.txt**：
-  - [https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/icloud.txt](https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/icloud.txt)
-  - [https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/icloud.txt](https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/ruleset/icloud.txt)
-- [@Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
-- [@v2fly/domain-list-community](https://github.com/v2fly/domain-list-community)
-- [@felixonmars/dnsmasq-china-list](https://github.com/felixonmars/dnsmasq-china-list)
-- [@17mon/china_ip_list](https://github.com/17mon/china_ip_list)
-
-## 项目 Star 数增长趋势
-
-[![Stargazers over time](https://starchart.cc/Loyalsoldier/surge-rules.svg)](https://starchart.cc/Loyalsoldier/surge-rules)
-=======
->>>>>>> 9339b97 (Update README.md)
+  - [https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/icloud.txt](https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/icloud.txt)
+  - [https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/icloud.txt](https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/icloud.txt)
