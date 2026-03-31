@@ -16,20 +16,34 @@
 
 
 - **直连域名列表 direct.txt**：
-  - [https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/direct.txt](https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/direct.txt)
-  - [https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/direct.txt](https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/direct.txt)
+  - [https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/direct.txt](https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/direct.txt)
+  - [https://cdn.jsdelivr.net/gh/ppmina/Quantumult_X-rules@release/ruleset/direct.txt](https://cdn.jsdelivr.net/gh/ppmina/Quantumult_X-rules@release/ruleset/direct.txt)
 - **代理域名列表 proxy.txt**：
-  - [https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/proxy.txt](https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/proxy.txt)
-  - [https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/proxy.txt](https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/proxy.txt)
+  - [https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/proxy.txt](https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/proxy.txt)
+  - [https://cdn.jsdelivr.net/gh/ppmina/Quantumult_X-rules@release/ruleset/proxy.txt](https://cdn.jsdelivr.net/gh/ppmina/Quantumult_X-rules@release/ruleset/proxy.txt)
 - **广告域名列表 reject.txt**：
-  - [https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/reject.txt](https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/reject.txt)
-  - [https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/reject.txt](https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/reject.txt)
+  - [https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/reject.txt](https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/reject.txt)
+  - [https://cdn.jsdelivr.net/gh/ppmina/Quantumult_X-rules@release/ruleset/reject.txt](https://cdn.jsdelivr.net/gh/ppmina/Quantumult_X-rules@release/ruleset/reject.txt)
 - **私有网络专用域名列表 private.txt**：
-  - [https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/private.txt](https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/private.txt)
-  - [https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/private.txt](https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/private.txt)
+  - [https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/private.txt](https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/private.txt)
+  - [https://cdn.jsdelivr.net/gh/ppmina/Quantumult_X-rules@release/ruleset/private.txt](https://cdn.jsdelivr.net/gh/ppmina/Quantumult_X-rules@release/ruleset/private.txt)
 - **Apple 在中国大陆可直连的域名列表 apple.txt**：
-  - [https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/apple.txt](https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/apple.txt)
-  - [https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/apple.txt](https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/apple.txt)
+  - [https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/apple.txt](https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/apple.txt)
+  - [https://cdn.jsdelivr.net/gh/ppmina/Quantumult_X-rules@release/ruleset/apple.txt](https://cdn.jsdelivr.net/gh/ppmina/Quantumult_X-rules@release/ruleset/apple.txt)
 - **iCloud 域名列表 icloud.txt**：
-  - [https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/icloud.txt](https://raw.githubusercontent.com/Mrzai/Quantumult_X-rules/release/ruleset/icloud.txt)
-  - [https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/icloud.txt](https://cdn.jsdelivr.net/gh/Mrzai/Quantumult_X-rules@release/ruleset/icloud.txt)
+  - [https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/icloud.txt](https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/icloud.txt)
+  - [https://cdn.jsdelivr.net/gh/ppmina/Quantumult_X-rules@release/ruleset/icloud.txt](https://cdn.jsdelivr.net/gh/ppmina/Quantumult_X-rules@release/ruleset/icloud.txt)
+
+#### 使用示例（filter_remote）
+
+`Proxy Policy` 只是示例策略组名称，请替换为你在 Quantumult X 中实际使用的策略组名。
+
+```ini
+[filter_remote]
+https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/icloud.txt, tag=iCloud, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/apple.txt, tag=Apple, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/proxy.txt, tag=Proxy, force-policy=Proxy Policy, update-interval=172800, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/ppmina/Quantumult_X-rules/release/ruleset/direct.txt, tag=Direct, force-policy=direct, update-interval=172800, opt-parser=false, enabled=true
+FILTER_LAN, tag=LAN, force-policy=direct, enabled=true
+FILTER_REGION, tag=CN, force-policy=direct, enabled=true
+```
